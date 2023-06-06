@@ -49,7 +49,7 @@ header ul li a {
     background-color: #333;
     /* padding: 5px; */
     text-align: center;
-    transition-property:  background-color;
+    transition-property: background-color;
     transition-duration: 2s;
 }
 
@@ -135,6 +135,8 @@ footer {
 footer h2 {
     font-size: 60px;
     padding: 12px;
+    text-align: center;
+
 }
 
 footer h2 a {
@@ -148,7 +150,7 @@ footer h2 a:hover {
 
 footer h3 {
     font-size: 30px;
-    margin-bottom: 0;
+    padding-left:10px;
 }
 
 footer h3 a {
@@ -158,4 +160,25 @@ footer h3 a {
 
 footer h3 a:hover {
     color: slategrey;
+}
+
+footer ul {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+footer li {
+    padding: 10px;
+    color:#333;
+}
+
+footer a  {
+    color: #333;
+}
+
+footer strong a {
+    color: #748059
+}
+footer a:hover{
+    color: #b6b1b1;
 }
