@@ -11,9 +11,9 @@ header {
 }
 
 header h1 {
+    display: inline-flex;
     font-size: 64px;
     margin: 12px;
-
 }
 
 header h1 a {
@@ -47,14 +47,12 @@ header ul li a {
     text-decoration: none;
     color: #ffffff;
     background-color: #333;
-    /* padding: 5px; */
     text-align: center;
-    transition-property: background-color;
-    transition-duration: 2s;
+    transition-property:color;
+    transition-duration: 1s;
 }
 
 header ul li a:hover {
-    /* background-color: #ff0000; */
     color: #505e59;
 }
 
@@ -150,7 +148,7 @@ footer h2 a:hover {
 
 footer h3 {
     font-size: 30px;
-    padding-left:10px;
+    padding-left: 10px;
 }
 
 footer h3 a {
@@ -169,16 +167,17 @@ footer ul {
 
 footer li {
     padding: 10px;
-    color:#333;
+    color: #333;
 }
 
-footer a  {
+footer a {
     color: #333;
 }
 
 footer strong a {
     color: #748059
 }
-footer a:hover{
+
+footer a:hover {
     color: #b6b1b1;
 }
