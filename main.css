@@ -30,7 +30,8 @@ header nav {
 
 header ul {
     list-style-type: none;
-    margin-top: 15 px;
+    margin-top: 15px;
+    margin-right: 12px;
     padding: 10px;
     display: flex;
     background-color: #333;
@@ -76,29 +77,32 @@ header ul li a:hover {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 12px;
+    padding-left: 24px;
     width: 100%;
     
 }
 
 .header-nav-bar-1 li {
-    margin-right: 10px;
+    margin-right: 8px;
     font-size: 20px;
 }
 
 .header-nav-bar-1 a {
     text-decoration: none;
-    color: #333;
-    padding: 5px;
-    border-radius: 10px;
+    color: #ecdfdf;
+    padding: 6px;
+    border-radius: 7px;
 }
 
 .header-nav-bar-1 a:hover {
     background-color: #333;
     color: #505e59;
+
 }
 
 .header-nav-bar-1 img {
     width: 100%;
+    height: 615px;
 }
 
 .Everything h3 {
