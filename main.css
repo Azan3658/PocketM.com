@@ -1,5 +1,4 @@
 body {
-
     margin: 0;
     padding: 0;
 }
@@ -118,21 +117,45 @@ header ul li a:hover {
 }
 
 .Everything a:hover {
-    color: rgb(241, 169, 85);
+    color: rgb(168, 148, 126);
 }
 
-main img {
-    display: flex;
+.main-contant img {
     width: 200px;
     height: 170px;
 }
 
-main {
+.main-contant  {
     display: flex;
-    justify-content: space-evenly;
-    margin-right: 111px;
+    justify-content:space-evenly;
+    margin-right: 11px;
     margin-top: 30px;
 }
+.main-contant button {
+    display: flex;
+    font-size: 16px;
+    align-content: center;
+    margin-top: 9px; 
+    padding-left: 10px;
+    background-color: #7ee20c;
+    height: 2em;
+    width: 12.5em;
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+  .enter:hover{
+    background-color: #6daa72;
+}
+.main-contant .enter a {
+    color: white ;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 3.5em;
+    padding-bottom: 2em;
+    
+}
+
 
 /* <--footer--> */
 footer {
